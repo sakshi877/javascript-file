@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<style type="text/css">
+		form{text-align: center;}
+	</style>
+
+
+</head>
+<body>
+  <script type="text/javascript">
+  	function addition()
+	{	
+
+		// alert("w orking");
+		var number1= parseInt(document.getElementById("number1").value);
+		var number2= parseInt(document.getElementById("number2").value);
+		var sum=(number1+number2);
+			alert(sum);
+
+		
+		
+	}
+	function subtract()
+	{
+		
+	var number1= parseInt(document.getElementById("number1").value);
+		var number2= parseInt(document.getElementById("number2").value);
+		var subtract=(number1-number2);
+			alert(subtract);
+		}
+		function multiplication()
+	
+		{
+			var number1= parseInt(document.getElementById("number1").value);
+		var number2= parseInt(document.getElementById("number2").value);
+		var multiplication=(number1*number2);
+			alert(multiplication);
+		}
+
+		function divide()
+		{
+			var number1= parseInt(document.getElementById("number1").value);
+		var number2= parseInt(document.getElementById("number2").value);
+		var divide=(number1/number2);
+			alert(divide);
+		}
+
+
+
+</script>
+  <form>
+
+
+<label for="number">first no.</label><br>	
+
+	
+	
+	<input  type="number"id="number1" name="number" placeholder="enter number"><br><br>
+
+	<label for="number">second no.</label><br>
+	<input type="number"id="number2" name="number" placeholder="enter number"><br><br>
+	<button onclick="addition()">addition</button>
+	<button onclick="subtract()">subtract</button><br><br>
+	<button onclick="multiplication()">multiplication</button>
+	<button onclick="divide()">divide</button>
+	
+	
+	
+		
+
+		
+		
+
+</body>
+</html>
